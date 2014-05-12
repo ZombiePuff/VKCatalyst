@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: VKCatalyst_production
-  username: VKCatalyst
+ 
   password: <%= ENV['VKCATALYST_DATABASE_PASSWORD'] %>
